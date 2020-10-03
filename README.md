@@ -1,2 +1,2 @@
-# doublee_linkedlist
+# hacktoberfest
 can anyone optimized the code
