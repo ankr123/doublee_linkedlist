@@ -199,7 +199,7 @@ int main() {
     cout << "7. Clear Screen" << endl << endl;
  
     cin >> option;
-    Node * n1 ;
+    Node * n1=new Node() ;
     //Node n1;
  
     switch (option) {
@@ -254,10 +254,15 @@ int main() {
       obj.printList();
  
       break;
+      case 7:
+      system("cls");
+      break;
+    default:
+      cout << "Enter Proper Option number " << endl;
    
     }
  
   } while (option != 0);
  
-  
+  return 0;
 }
